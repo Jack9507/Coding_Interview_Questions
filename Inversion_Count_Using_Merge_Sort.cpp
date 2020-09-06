@@ -17,7 +17,7 @@ int merge(int left[], int right[], int arr[], int ln, int rn, int n)
             arr[k++] = right[j++];
 
             // here left[i] > right[j]     which is a valid condition for inversion pair
-            //  inversion count will be equal to the number of elements (including current element )greater than the current element
+            //  inversion count will be equal to the number of elements (including current element )--
             //  on the right side of current element  in left array.
             //  so the number of elements on the right of current element in left array can be calculated as = size of left array - index of current element
 //            int res=distance(upper_bound(left, left+ln, left[i]), left+ln ) + 1;
