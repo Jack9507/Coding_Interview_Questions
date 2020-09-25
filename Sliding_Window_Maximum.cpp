@@ -1,6 +1,6 @@
 
-//Time Complexity  :  O(n^2)
-
+// Time Complexity  :  O(n^2)
+// Space Complexity : O(1)
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) 
